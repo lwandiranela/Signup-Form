@@ -7,78 +7,89 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section>
-        <!--Background image with Name of business Logo-->
-        <img src="Cloud 9.jpg" alt="Blue Aura">
-    </section>
-
-    <section>
-        <p>This is not a real online service! You know you need something like this in your life to help you realise your deepest strongest dreams. Sign up now to get started.</p>
-
-        <span>You <em>know</em> you want to.</span>
-    </section>
-
-    <section>
-        <span>Let's do this!</span>
-
-        <fieldset>
-            <form>
-                <label for="fName">FIRST NAME
-                    <span aria-label="required">*</span>
-                </label>
-                <input type="text"
-                       id="fName"
-                       name="firstName"
-                       required>
-                <label for="lName">LAST NAME
-                    <span aria-label="required">*</span>
-                </label>
-                <input type="text"
-                       id="lName"
-                       name="lastName"
-                       required>
-        </fieldset>
-            <fieldset>
-                <label for="mail">EMAIL
-                    <span aria-label>*</span>
-                </label>
-                <input type="email"
-                       id="mail"
-                       name="email"
-                       required>
-                <label for="number">PHONE NUMBER
-                    <span aria-label="required">*</span>
-                </label>
-                <input type="number"
-                       id="number"
-                       name="phoneNumber"
-                       required>
-            </fieldset>
-            <fieldset>
-                <label for="pwd">PASSWORD
-                    <span aria-label="required">*</span>
-                </label>
-                <input type="password"
-                       id="pwd"
-                       name="password"
-                       required>
-                <label for="confirm-pwd">PASSWORD
-                    <span aria-label="required">*</span>
-                </label>
-                <input type="password"
-                       id="confirm-pwd"
-                       name="password"
-                       required>
-            </fieldset>
-
-            <section>
-                <button type="submit">Create Account</button>
-        
-                <span>Already have an account? <a href="">Log in</a></span>
+    <section class="container">
+            <div class="side-image">
+                <!--Background image with Name of business Logo-->
+                <img src="Cloud 9.jpg" alt="Blue Aura">
+            </div>
+    
+            <section class="sub-container">
+                <div class="header">
+                    <p>This is not a real online service! You know you need something <br>like this in your life to help you realise your deepest strongest dreams. <br> Sign up now to get started.</p>
+                    <span>You <em>know</em> you want to.</span>
+                </div>
+                    
+              <section class="body-of-form" class="column-item">
+                <span class="loner">Let's do this!</span>
+                <form>
+                    <fieldset class="sunshine">
+                        <div class="butterfly">
+                            <label for="fName">FIRST NAME
+                                <span aria-label="required"></span>
+                            </label> <br>
+                            <input type="text"
+                                    id="fName"
+                                    name="firstName"
+                                    required>
+                        </div>
+                        <div class="penguin">
+                            <label for="lName">LAST NAME
+                                <span aria-label="required"></span>
+                            </label> <br>
+                            <input type="text"
+                                    id="lName"
+                                    name="lastName"
+                                    required>
+                        </div>
+                 </fieldset>
+                 <fieldset class="sunshine">
+                        <div class="butterfly">
+                            <label for="mail">EMAIL
+                                <span aria-label></span>
+                            </label> <br>
+                            <input type="email"
+                                   id="mail"
+                                   name="email"
+                                   required>
+                        </div>
+                        <div class="penguin">
+                            <label for="number">PHONE NUMBER
+                                <span aria-label="required"></span>
+                            </label> <br>
+                            <input type="number"
+                                    id="number"
+                                    name="phoneNumber"
+                                    required>
+                        </div>
+                 </fieldset>
+                 <fieldset class="sunshine">
+                        <div class="butterfly">
+                            <label for="pwd">PASSWORD
+                                <span aria-label="required"></span>
+                            </label> <br>
+                            <input type="password"
+                                   id="pwd"
+                                   name="password"
+                                   required>
+                        </div>
+                        <div class="penguin">
+                            <label for="confirm-pwd">CONFIRM PASSWORD
+                                <span aria-label="required"></span>
+                            </label> <br>
+                            <input type="password"
+                                    id="confirm-pwd"
+                                    name="password"
+                                    required>
+                        </div>
+                    </fieldset>
+                    <div class="bottom-baby">
+                        <button type="submit">Create Account</button><br>
+                        <span>Already have an account? <a href="">Log in</a></span>
+                    </div>
+                </form>
+              </section>
             </section>
-
-        </form>
-    </section>
+</section>
 
     <script src="script.js"></script>
 </body>

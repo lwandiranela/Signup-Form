@@ -1,0 +1,75 @@
+.side-image{
+    width: 30vw;
+    height: 100vh;
+}
+
+img{
+    height: auto;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35vh;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 60px 0 0 40px ;
+    background-color: rgb(248, 249, 249 );
+}
+
+.body-of-form{
+    height: 30vh;
+}
+
+.bottom-baby{
+    height: 35vh;
+}
+
+fieldset{
+    border: 0;
+}
+
+.sunshine{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+.penguin{
+    padding-left: 100px;
+}
+
+.butterfly{
+    padding-left: 35px;
+} 
+
+.loner{
+    padding-left: 50px;
+    font-size: 1.5rem;
+}
+
+.bottom-baby{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    background-color: rgb(248, 249, 249 );
+}
+
+button{
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
