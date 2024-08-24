@@ -1,11 +1,39 @@
-.side-image{
+.the-behind-picture{
     width: 30vw;
     height: 100vh;
+    background-image: url('Cloud\ 9.jpg');
 }
 
-img{
-    height: auto;
-    width: 100%;
+/*h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    padding-top: 200px;
+    background-color: rgb(72,114,191);
+    opacity: 0.5;
+    height: 10px;
+}*/
+
+#desperation {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(72,114,191, 0.5);
+    margin-top: 290px;
+    height: 100px;
+  }
+  
+#logo-image {
+    width: 25%;
+  }
+
+#logo-text{
+    color: white;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+
 }
 
 .container{
